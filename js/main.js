@@ -189,4 +189,6 @@
         mobileMenuHide();
     });
 
+    $('select').niceSelect();
+
 })(jQuery);
