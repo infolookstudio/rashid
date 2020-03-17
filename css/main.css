@@ -2191,3 +2191,17 @@ input[type=submit]:hover {
 .service-info h4 {
   color: #262626;
 }
+
+.service-info .thumb {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.service-block:hover .service-info .thumb img {
+  transform: scale(1.2);
+}
+
+.service-block .service-info .thumb img {
+  transition: .2s;
+  margin-bottom: 0;
+}
