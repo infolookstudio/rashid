@@ -689,8 +689,6 @@ ul.social-links li:last-child a {
 .site-main-menu li a,
 .site-main-menu li a:hover {
   color: #222;
-  font-size: 15px;
-  font-weight: 500;
   position: relative;
   text-decoration: none;
   outline: none;
@@ -2124,6 +2122,8 @@ blockquote {
 
 .site-main-menu li a {
   text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 ul.social-links li a:hover {
