@@ -2188,3 +2188,6 @@ input[type=submit]:hover {
 .service-info img {
   border-radius: 10px;
 }
+.service-info h4 {
+  color: #262626;
+}
