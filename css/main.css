@@ -2205,3 +2205,7 @@ input[type=submit]:hover {
   transition: .2s;
   margin-bottom: 0;
 }
+
+.block-title h3:after {
+  display: none;
+}
