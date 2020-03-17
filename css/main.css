@@ -2178,3 +2178,11 @@ ul.social-links li:last-child a:hover {
 .nice-select:focus {
   border-color: #dfdfdf;
 }
+
+input[type=submit] {
+  color: #E63934;
+  transition: .2s;
+}
+input[type=submit]:hover {
+  color: #fff;
+}
