@@ -667,6 +667,8 @@ ul.social-links li:last-child a {
 .site-nav {
   display: block;
   padding: 30px 70px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
 }
 
 .site-main-menu {
@@ -2133,6 +2135,7 @@ ul.social-links li a:hover {
 ul.social-links li:first-child a:hover {
   background: #2CAAE1;
 }
+
 ul.social-links li:last-child a:hover {
   background: #C63D2D;
 }
@@ -2166,8 +2169,6 @@ ul.social-links li:last-child a:hover {
   cursor: pointer;
 }
 
-.form-group .nice-select {}
-
 .nice-select:after {
   height: 8px;
   width: 8px;
@@ -2183,6 +2184,7 @@ input[type=submit] {
   color: #E63934;
   transition: .2s;
 }
+
 input[type=submit]:hover {
   color: #fff;
 }
