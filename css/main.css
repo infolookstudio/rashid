@@ -777,8 +777,6 @@ ul.social-links li:last-child a {
 /* =======================================
 7.1. About Me subpage
 ======================================= */
-/* About me General info */
-.general-info {}
 
 /* /About me General info */
 
@@ -1371,7 +1369,6 @@ ul.social-links li:last-child a {
   background: rgba(79, 86, 94, 0.6);
   display: inline-block;
   font-family: 'Pe-icon-7-stroke';
-  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1638,6 +1635,7 @@ ul.social-links li:last-child a {
   border: 1px solid #888;
   display: block;
   -webkit-backface-visibility: visible;
+  backface-visibility: visible;
   transition: opacity 200ms ease;
   border-radius: 30px;
 }
@@ -2208,4 +2206,80 @@ input[type=submit]:hover {
 
 .block-title h3:after {
   display: none;
+}
+
+.service-area .service-info .thumb {
+    margin-bottom: 0;
+}
+
+.service-area .service-info {
+    text-align: left;
+}
+
+.service-area .service-info .content {padding: 10px;border: 1px solid #F1F1F1;border-top: 0px;font-size: 16px;padding-top: 15px;}
+
+.service-area .service-info .thumb img {
+    width: 100%;
+}
+
+.service-area .service-info .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.service-area .service-info .content p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #222;
+}
+
+.service-area .spacial .service-info .content {
+    border: none;
+    padding: 0;
+}
+
+.service-area .spacial {
+    background: #E63934;
+    text-align: center;
+    padding: 20px 17px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+.service-area .spacial .service-info .content {
+    text-align: center;
+}
+
+.service-block.spacial:hover .service-info .thumb img {
+    transform: scale(1);
+}
+
+.service-area .spacial .service-info .content h4 {
+    color: #fff;
+    text-align: center;
+}
+
+.service-area .spacial .service-info .content p {
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.service-area .spacial .site-btn {
+    background: #fff;
+    color: #222;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 18px 50px;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.service-area .spacial .site-btn:hover { 
+  background: #222;
+  color: #fff;
 }
