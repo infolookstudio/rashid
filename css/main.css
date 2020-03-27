@@ -677,11 +677,8 @@ ul.social-links li:last-child a {
 .site-main-menu li {
   display: inline-block;
   position: relative;
-  padding: 10px 20px;
-}
-
-.site-main-menu li:first-child {
-  padding-left: 0;
+  padding: 6px 20px;
+  cursor: pointer;
 }
 
 .site-main-menu li a,
@@ -711,6 +708,14 @@ ul.social-links li:last-child a {
   color: #fff;
   border-radius: 40px;
 }
+
+.site-main-menu li:hover {
+  background-color: #E63934;
+}
+
+.site-main-menu li:hover a {
+  color: #fff;
+} 
 
 /* /Main menu */
 
@@ -2270,6 +2275,8 @@ input[type=submit]:hover {
     text-align: center;
     font-weight: 600;
     color: #fff;
+    font-size: 14px;
+    font-family: Oswald, Helvetica, sans-serif;
 }
 
 .service-area .spacial .site-btn {
@@ -2309,4 +2316,9 @@ input[type=submit]:hover {
     min-height: 440px;
     border: 1px solid #F1F1F1;
     border-top: 0px;
+}
+
+.site-main-menu li {
+    border-radius: 40px;
+    background: #E9EBEE;
 }
