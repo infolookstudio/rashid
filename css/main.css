@@ -579,7 +579,7 @@ ul.social-links {
   display: inline-block;
   float: right;
   list-style: none;
-  margin: 8px 0 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -592,12 +592,13 @@ ul.social-links li {
 ul.social-links li a {
   display: inline-block;
   margin: 0 2px;
-  width: 28px;
-  height: 28px;
+  width: 35px;
+  height: 35px;
   color: #888;
   background-color: #eee;
   text-align: center;
   border-radius: 50%;
+  line-height: 35px;
 }
 
 ul.social-links li a:hover {
@@ -2319,6 +2320,7 @@ input[type=submit]:hover {
     border: 1px solid #F1F1F1;
     border-top: 0px;
     box-shadow: 0 2px 6px rgba(0,0,0,.25);
+    border-radius: 10px;
 }
 
 .site-main-menu li:hover {
@@ -2334,4 +2336,7 @@ input[type=submit]:hover {
 }
 .site-main-menu li.active:hover a{ 
   color: #fff;
+}
+.service-area .service-block.spacial {
+    box-shadow: none;
 }
