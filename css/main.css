@@ -662,7 +662,7 @@ ul.social-links li:last-child a {
 /* Main menu */
 .site-nav {
   display: block;
-  padding: 30px 70px;
+  padding: 17px 70px;
   border-bottom: 1px solid #D8DADB;
   margin-bottom: 20px;
 }
@@ -677,7 +677,7 @@ ul.social-links li:last-child a {
 .site-main-menu li {
   display: inline-block;
   position: relative;
-  padding: 10px 15px;
+  padding: 10px 20px;
 }
 
 .site-main-menu li:first-child {
@@ -706,8 +706,10 @@ ul.social-links li:last-child a {
   background-color: #eee;
 }
 
-.site-main-menu li.active a:after {
+.site-main-menu li.active {
   background-color: #E63934;
+  color: #fff;
+  border-radius: 40px;
 }
 
 /* /Main menu */
@@ -727,6 +729,9 @@ ul.social-links li:last-child a {
   line-height: 1.1em;
   font-weight: 500;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 30px 30px 0px;
+  padding-right: 30px;
+  padding-bottom: 15px;
 }
 
 .section-title:after {
@@ -750,7 +755,7 @@ ul.social-links li:last-child a {
   display: inline-block;
   margin: 0 0 0 15px;
   color: #888;
-  font-size: 14px;
+  font-size: 1.5em;
   font-weight: 200;
 }
 
@@ -2216,7 +2221,7 @@ input[type=submit]:hover {
     text-align: left;
 }
 
-.service-area .service-info .content {padding: 10px;border: 1px solid #F1F1F1;border-top: 0px;font-size: 16px;padding-top: 15px;}
+.service-area .service-info .content {padding: 10px;border-top: 0px;font-size: 16px;padding-top: 15px;}
 
 .service-area .service-info .thumb img {
     width: 100%;
@@ -2282,4 +2287,26 @@ input[type=submit]:hover {
 .service-area .spacial .site-btn:hover { 
   background: #222;
   color: #fff;
+}
+
+.site-main-menu li.active a {
+    color: #fff;
+}
+
+.site-main-menu li a:hover:after, .site-main-menu li.active a:after {
+    display: none;
+}
+
+.service-area .spacial .thumb img {
+    width: 50%;
+}
+
+.service-area .spacial .thumb {
+    text-align: center;
+}
+
+.service-area .service-block {
+    min-height: 440px;
+    border: 1px solid #F1F1F1;
+    border-top: 0px;
 }
