@@ -944,7 +944,6 @@ ul.social-links li:last-child a {
   border-radius: 6px;
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
-  border: 2px solid #e5e5e5;
   width: 100%;
   position: relative;
   margin: 0;
@@ -2346,6 +2345,7 @@ input[type=submit]:hover {
 .rashid-meaning .title {
     text-transform: uppercase;
     margin-top: 30px;
+    margin-bottom: 25px;
 }
 
 .rashid-meaning ul {
@@ -2414,9 +2414,10 @@ input[type=submit]:hover {
 
 .single-hotel-box .content {
     padding-left: 25px;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     border: 1px solid #eee;
     padding-bottom: 25px;
+    min-height: 398px;
 }
 
 .single-hotel-box .content ul {
@@ -2429,6 +2430,8 @@ input[type=submit]:hover {
     text-transform: uppercase;
     font-size: 18px;
     margin-top: 20px;
+    font-weight: 700;
+    color: #3E3E3E;
 }
 
 .hotel-exp-boxs {
@@ -2442,4 +2445,27 @@ input[type=submit]:hover {
 
 .single-hotel-box .content ul li {
     color: #3E3E3E;
+}
+
+.rashid-meaning {
+    margin-top: -115px;
+}
+
+.hotel-exp-boxs .col-lg-6:nth-child(1) .single-hotel-box .content {
+    background: #EFF6FE;
+}
+
+.hotel-exp-boxs .col-lg-6:nth-child(2) .single-hotel-box .content {
+    background: #EDEFF3;
+}
+
+.testimonials {
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+}
+
+.testimonial-item {
+    padding: 25px;
+    padding-bottom: 40px;
+    padding-top: 10px;
 }

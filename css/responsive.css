@@ -1,0 +1,14 @@
+@media (max-width: 991px) {
+    .rashid-meaning {
+    margin-top: 30px;
+}
+}
+@media (max-width: 767px) {
+    .single-hotel-box .content {
+    min-height: auto;
+}
+
+.single-hotel-box .thumb img {
+    width: 100%;
+}
+}
