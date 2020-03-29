@@ -1334,16 +1334,9 @@ ul.social-links li:last-child a {
   padding: 0;
   background: #fff;
   text-align: center;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(134, 104, 104, 0.15);
 }
 
-.blog-card:hover {
-  -webkit-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.11);
-  -moz-box-shadow: 0 1px 15px rgba(0, 0, 0, 0.11);
-  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.11);
-}
 
 .blog-card .post-image {
   width: 100%;
@@ -1415,6 +1408,7 @@ ul.social-links li:last-child a {
   -o-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  border-radius: 10px;
 }
 
 .blog-card .media-block a .mask:after {
@@ -2205,10 +2199,15 @@ ul.social-links li:last-child a:hover {
 input[type=submit] {
   color: #E63934;
   transition: .2s;
+  background: #E63934;
+  color: #fff;
+  border-radius: 40px;
 }
 
 input[type=submit]:hover {
   color: #fff;
+  background: #BD1D18;
+  border-color: transparent;
 }
 
 .service-info img {
@@ -2308,11 +2307,13 @@ input[type=submit]:hover {
     margin-top: 20px;
     transition: .3s;
     font-family: Oswald, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .service-area .spacial .site-btn:hover { 
   background: #222;
   color: #fff;
+  text-decoration: none;
 }
 
 .site-main-menu li.active a {
@@ -2335,7 +2336,7 @@ input[type=submit]:hover {
     min-height: 503px;
     border: 1px solid #F1F1F1;
     border-top: 0px;
-    box-shadow: 0 2px 6px rgba(0,0,0,.25);
+    box-shadow: 0 2px 6px rgba(134, 104, 104, 0.15);
     border-radius: 10px;
 }
 
@@ -2529,7 +2530,7 @@ input[type=submit]:hover {
     border: 1px solid #E63934;
     line-height: 30px;
     position: absolute;
-    top: 50%;
+    top: 28%;
     transform: translateY(-50%);
     left: -35px;
     color: #E63934;
@@ -2549,4 +2550,17 @@ input[type=submit]:hover {
 
 .team-carousl .owl-nav div.disabled {
     display: none;
+}
+
+.form-group input,
+.form-group textarea {
+    border-radius: 5px !important;
+}
+
+.form-group .nice-select {
+    border-radius: 5px;
+}
+
+.form-group label {
+    border-radius: 5px;
 }
