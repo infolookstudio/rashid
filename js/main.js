@@ -99,15 +99,6 @@
             $('.site-nav').toggleClass('mobile-menu-hide');
         });
 
-        // Testimonials Slider
-        $(".testimonials.owl-carousel").owlCarousel({
-            nav: true, // Show next/prev buttons.
-            items: 1, // The number of items you want to see on the screen.
-            loop: true, // Infinity loop. Duplicate last and first items to get loop illusion.
-            navText: false,
-            margin: 10,
-        });
-
          // Blog grid init
         setTimeout(function(){
             var $container = $(".blog-masonry");

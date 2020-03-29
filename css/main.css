@@ -502,11 +502,12 @@ textarea.form-control:focus {
   width: 25%;
   height: 100%;
   overflow: hidden;
+  z-index: 1;
 }
 
 .header::after {
   content: "";
-  background-image: url(../images/header.jpg);
+  background-image: url(../images/header.png);
   background-position: center center;
   background-size: cover;
   top: 0;
@@ -514,6 +515,35 @@ textarea.form-control:focus {
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: -1;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.header::before {
+  background: linear-gradient(-45deg, #00B3EF, #08A033, #08A033, #00B3EF);
+  background-size: 700%;
+  animation: gradient 5s ease infinite;
+  z-index: 1;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  opacity: .7;
 }
 
 .my-photo {
@@ -927,18 +957,15 @@ ul.social-links li:last-child a {
 .testimonial-author-info {
   display: inline-block;
   position: relative;
-  padding-left: 92px;
+  padding-left: 135px;
 }
 
 .testimonial-content {
-  padding-left: 50px;
-  overflow: hidden;
-  width: 100%;
+  padding-left: 60px;
   height: auto;
 }
 
 .testimonial-content .testimonial-text {
-  padding: 1.4em 1.8em;
   font-style: italic;
   background-color: #fcfcfc;
   border-radius: 6px;
@@ -946,8 +973,9 @@ ul.social-links li:last-child a {
   -webkit-border-radius: 6px;
   width: 100%;
   position: relative;
-  margin: 0;
   z-index: -1;
+  padding-top: 24px;
+  padding-left: 70px;
 }
 
 .testimonial-content .testimonial-text p {
@@ -957,21 +985,9 @@ ul.social-links li:last-child a {
 .testimonial-picture {
   display: inline-block;
   position: absolute;
-  width: 80px;
-  height: 80px;
-  overflow: hidden;
   margin: 0;
   top: -40px;
-  border-radius: 40px;
   z-index: 1;
-}
-
-.testimonial-picture img {
-  width: 100%;
-  border-radius: 100%;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border: 2px solid #ddd;
 }
 
 .testimonial-firm {
@@ -2131,7 +2147,7 @@ blockquote {
 .site-main-menu li a {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 ul.social-links li a:hover {
@@ -2316,12 +2332,13 @@ input[type=submit]:hover {
 }
 
 .service-area .service-block {
-    min-height: 440px;
+    min-height: 503px;
     border: 1px solid #F1F1F1;
     border-top: 0px;
     box-shadow: 0 2px 6px rgba(0,0,0,.25);
     border-radius: 10px;
 }
+
 
 .site-main-menu li:hover {
     border-radius: 40px;
@@ -2339,6 +2356,7 @@ input[type=submit]:hover {
 }
 .service-area .service-block.spacial {
     box-shadow: none;
+    padding-top: 60px;
 }
 
 
@@ -2468,4 +2486,27 @@ input[type=submit]:hover {
     padding: 25px;
     padding-bottom: 40px;
     padding-top: 10px;
+}
+
+.general-info p {
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+/* job section css */
+
+.job-section {
+  background-image: url(../images/job-bg.png);
+  padding: 25px 0;
+  background-size: cover;
+  background-position: left;
+  padding-left: 210px;
+  padding-right: 60px;
+  margin-bottom: 15px;
+}
+
+.job-section .content {
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
 }
