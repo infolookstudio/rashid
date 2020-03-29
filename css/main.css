@@ -2511,3 +2511,42 @@ input[type=submit]:hover {
     font-size: 16px;
     line-height: 30px;
 }
+
+.copyright-text {
+    color: #fff;
+    position: absolute;
+    z-index: 99;
+    text-align: center;
+    width: 100%;
+    bottom: 30px;
+}
+
+.team-carousl .owl-nav div {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: 1px solid #E63934;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -35px;
+    color: #E63934;
+    transition: .3s;
+}
+
+.team-carousl .owl-nav div:hover {
+    background: #E63934;
+    border-color: transparent;
+    color: #fff;
+}
+
+.team-carousl .owl-nav div.owl-next {
+    left: auto;
+    right: -35px;
+}
+
+.team-carousl .owl-nav div.disabled {
+    display: none;
+}
