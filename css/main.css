@@ -533,7 +533,7 @@ textarea.form-control:focus {
 }
 
 .header::before {
-  background: linear-gradient(-45deg, #00B3EF, #08A033, #08A033, #00B3EF);
+  background: linear-gradient(-45deg, #2c3e50, #3498db, #3498db, #2c3e50);
   background-size: 700%;
   animation: gradient 5s ease infinite;
   z-index: 1;
