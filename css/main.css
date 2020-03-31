@@ -2564,3 +2564,11 @@ input[type=submit]:hover {
 .form-group label {
     border-radius: 5px;
 }
+
+.service-area .service-info .thumb img {
+    border-radius: 0px;
+}
+
+.service-area .service-info .thumb {
+    border-radius: 10px 10px 0px 0px;
+}
