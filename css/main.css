@@ -2572,3 +2572,7 @@ input[type=submit]:hover {
 .service-area .service-info .thumb {
     border-radius: 10px 10px 0px 0px;
 }
+
+.test-cont {
+    padding-top: 25px;
+}
