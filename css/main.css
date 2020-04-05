@@ -2576,3 +2576,69 @@ input[type=submit]:hover {
 .test-cont {
     padding-top: 25px;
 }
+
+.upcomming-wrap {
+    padding-top: 30px;
+    margin-top: -30px;
+}
+
+.singel-upcomming-post {
+    display: flex;
+    margin-top: 30px;
+}
+
+.singel-upcomming-post .content {
+    border: 1px solid #CCCCCC;
+    border-left: 0px;
+    border-radius: 0px 10px 10px 0px;
+    padding-left: 20px;
+    color: #3E3E3E;
+    padding-right: 30px;
+    padding-top: 20px;
+    position: relative;
+    flex-basis: 100%;
+}
+
+.singel-upcomming-post .content .title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.singel-upcomming-post a.site-btn {
+    display: inline-block;
+    border: 1px solid #cccc;
+    padding: 12px 38px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #595959;
+    border-radius: 40px;
+    margin-top: 70px;
+}
+
+.singel-upcomming-post a.site-btn:hover { 
+  background: #E63934;
+  color: #fff;
+  border-color: transparent;
+}
+
+.singel-upcomming-post .content p {
+    line-height: 30px;
+}
+
+.singel-upcomming-post .thumb {
+    flex-basis: 35%;
+}
+
+.singel-upcomming-post .thumb img {
+    height: 100%;
+}
+
+.upcomming-wrap.two {
+    padding-top: 100px;
+}
+
+.singel-upcomming-post .content .title i {
+    font-size: 20px;
+    color: #E63934;
+    margin-right: 5px;
+}
