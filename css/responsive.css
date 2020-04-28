@@ -38,7 +38,7 @@
 	.menu-toggle {
 		position: relative;
 		z-index: 99;
-		transform: translateY(-80px);
+		transform: translateY(-70px);
 	}
 
 	.menu-toggle i {
@@ -70,6 +70,9 @@
 	.upcomming-wrap.two {
 		padding-top: 80px;
 	}
+	a.site-logo {
+    width: 75px;
+}
 }
 @media (max-width: 767px) {
 	.single-hotel-box .content {
@@ -93,17 +96,6 @@
 }
 
 @media (max-width: 460px) {
-	a.site-logo img {
-		width: 110px;
-	}
-
-	a.site-logo {
-		margin-top: 35px;
-	}
-
-	.menu-toggle {
-		transform: translateY(-60px);
-	}
 
 	.singel-upcomming-post {
 		flex-direction: column;
